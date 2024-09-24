@@ -8,21 +8,21 @@ namespace INF2011S_Project.Business
 {
     public class Booking
     {
-        private String bookingID;
+        private int bookingID;
         private Room room;
-        private Date checkIn;
-        private Date checkOut;
-        private int lengthOfStay;
-        private List<Date> dates; 
+        private Period checkIn;
+        private Period checkOut;
 
-
-        public Booking(String id, Room r, Date checkIn, Date checkOut ) 
+        public Booking(String id, Room r, Period checkIn, Period checkOut ) 
         {
             this.bookingID = id;
             this.room = r;  
             this.checkIn = checkIn; 
             this.checkOut = checkOut;   
+        
+            //System.DateTime.Compare()
         }
+
         
     }
 }

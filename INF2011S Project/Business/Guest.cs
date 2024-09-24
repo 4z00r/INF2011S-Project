@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace INF2011S_Project.Business
 {
-    public class Reservation
+    public class Guest : Person
     {
-        private Hotel hotel; 
-        private List<Booking> bookings;
+        private int customerID;
+        private Booking booking; 
 
-        public Reservation() { }    
+        public Guest() { }
     }
 }

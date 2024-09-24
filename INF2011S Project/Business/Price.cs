@@ -8,7 +8,7 @@ namespace INF2011S_Project.Business
 {
     public class Price
     {
-        private Date date;
+        private Period date;
         private int numBeds;
         private float discount; 
     }
